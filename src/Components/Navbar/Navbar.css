@@ -1,0 +1,28 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 20px 170px;
+}
+.nav-menu{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    font-size: 16px;
+}
+.nav-contact{
+    padding: 15px 25px;
+    border-radius: 50px;
+    background:linear-gradient(267deg, #DA7C25 0.36%, #B923E1 102.06%);
+    font-size: 16px;
+    transition: 0.5s;
+
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.nav-contact:hover{
+    transform: scale(1.05);
+}
